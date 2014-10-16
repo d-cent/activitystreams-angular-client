@@ -1,0 +1,10 @@
+{
+	"name": "Activitystreams Angular Client",
+	"description": "Angular client that uses activitystreams",
+	"author": "",
+	"devDependencies": {
+		"gulp": "~3.8.8",
+		"bower": "~1.3.12",
+		"karma": "~0.12.24"
+	}
+}
