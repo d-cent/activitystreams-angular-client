@@ -1,0 +1,19 @@
+<div class="page">
+
+	<dc-navigation></dc-navigation>
+
+	<div class="l-constrained notifications-list">
+		<div ng-repeat="post in feed.posts" class="single-post">
+			<div class="media notification">
+			<figure class="media__img">
+		 		<img class="img--round" src="http://placeimg.com/60/60/tech" alt="Square Thumbnail" />
+		    </figure>
+		    <div class="media__body notification__body">
+				<h2 class="c-base gamma notification__title">{{post.object.displayName}}</h2>
+				<p class="c-base notification__lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		   		<span class="notification__meta">21, 345 following</span>
+		   </div>
+		</div>
+		</div>
+	</div>
+</div>
