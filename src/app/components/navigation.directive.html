@@ -1,20 +1,8 @@
 <div>
-	<div class="wrap--header bc-light" style="min-height: 200px;">
-		
-		<header class="text--center l-constrained clearfix" role="banner">
-
-			<a class="site-logo">
-				<img src="assets/img//logo.svg" class="logo" alt="Logo Alt Text" />
-				<span class="site-logo__text">decentralized tools</span>
-			</a>
-
-		</header><!-- end header -->
-
-	</div><!-- end wrap header -->
 	<div class="wrap text--center">
 		<ul class="nav tabs">
-		    <li><a class="tab tab--active" href="#">Active</a></li>
-		    <li><a class="tab" href="#/feed">Feed</a></li>
+		    <li><a class="tab" href="#" ng-class="{'tab--active': nav.isActive('/')}">Active</a></li>
+		    <li><a class="tab" href="#/feed" ng-class="{'tab--active': nav.isActive('/feed')}">Feed</a></li>
 		    <li><a class="tab" href="#">Passive</a></li>
 		</ul>
 	</div>
