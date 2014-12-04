@@ -4,8 +4,12 @@
 Activitystreams Angular client
 
 ## Installation
+
+	git clone git@github.com:d-cent/activitystreams-angular-client.git [FOLDERNAME]
+	cd [FOLDERNAME]
     npm install
     bower install
+    
 ## Running the local version
 
 Move to project root folder and run
