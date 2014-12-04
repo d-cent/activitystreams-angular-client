@@ -1,1 +1,1 @@
-php -S ${1:-localhost:3005} -t src
+php -S ${1:-localhost:3005} -t bin
