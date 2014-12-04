@@ -5,8 +5,7 @@
 		.module('app.feed')
 		.controller('FeedCtrl', Feed);
 
-	Feed.$inject = ['dataService'];
-
+	/* @ngInject */
 	function Feed(dataService){
 		var vm = this;
 

@@ -5,8 +5,6 @@
         .module('app')
         .directive('dcNavigation', dcNavigation);
 
-    dcNavigation.$inject = ['$location'];
-
     /* @ngInject */
     function dcNavigation($location) {
         // Usage:

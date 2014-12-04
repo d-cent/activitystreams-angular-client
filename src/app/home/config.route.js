@@ -5,8 +5,7 @@
 		.module('app.home')
 		.config(config);
 
-	config.$inject = ['$routeProvider'];
-
+	/* @ngInject */
 	function config($routeProvider){
 		$routeProvider
 			.when('/', {

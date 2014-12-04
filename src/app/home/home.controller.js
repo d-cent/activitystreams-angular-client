@@ -5,8 +5,7 @@
 		.module('app.home')
 		.controller('HomeCtrl', Home);
 
-	Home.$inject = ['dataService'];
-
+	/* @ngInject */
 	function Home(dataService){
 		var vm = this;
 

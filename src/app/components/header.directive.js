@@ -5,8 +5,6 @@
         .module('app')
         .directive('dcHeader', dcHeader);
 
-    dcHeader.$inject = ['$location'];
-
     /* @ngInject */
     function dcHeader($location) {
         // Usage:

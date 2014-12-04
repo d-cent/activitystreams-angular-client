@@ -5,8 +5,6 @@
         .module('app')
         .directive('dcBanner', dcBanner);
 
-    dcBanner.$inject = ['$location'];
-
     /* @ngInject */
     function dcBanner($location) {
         // Usage:
