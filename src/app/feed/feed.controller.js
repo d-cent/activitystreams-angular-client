@@ -10,7 +10,7 @@
 	function Feed(dataService){
 		var vm = this;
 
-		dataService.posts.get({}, function(posts, h){
+		dataService.feed.get({}, function(posts, h){
 			vm.posts = posts.items;
 		});
 	};
