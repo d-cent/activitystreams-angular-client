@@ -8,8 +8,8 @@
 	dataService.$inject = ['$resource'];
 
 	function dataService($resource){
-		var feed = "../jsondata/feed.json"
-		var homeFeed = "../jsondata/home-feed.json"
+		var feed = "jsondata/feed.json"
+		var homeFeed = "jsondata/home-feed.json"
 		
 		return {
 			posts: $resource(homeFeed),
