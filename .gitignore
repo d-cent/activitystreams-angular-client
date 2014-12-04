@@ -2,3 +2,5 @@ node_modules/
 bower_components/
 src/assets/js/lib/
 .DS_Store
+bin/
+README.html
