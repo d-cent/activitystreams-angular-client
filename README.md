@@ -9,6 +9,7 @@ Activitystreams Angular client
 	cd [FOLDERNAME]
     npm install
     bower install
+    gulp
     
 ## Running the local version
 
